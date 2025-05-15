@@ -1,17 +1,17 @@
 ## ZebraプリンタとWindows PCをシリアル接続する方法
 
-Zebra プリンタとホスト機器をシリアル接続するご要望は一定するある。
+Zebra プリンタとホスト機器をシリアル接続するご要望が一定数あるため、その要諦を記載する。
 
-- PLC <> Printer
-- PC <> Printer
-- Iot Device <> Printer
-- Scanner <> Printer
+- PLC <> プリンタ
+- PC <> プリンタ
+- Iot Device <> プリンタ
+- Scanner <> プリンタ
 
 <br>
 
 接続先のプリンタ機種によって、コネクタ形状が異なる。ホストとコネクタに合った接続ケーブルを用意すること。
 
-| Printer | Connector Type   |
+| プリンタ | Connector Type   |
 | ------- | ---------------- |
 | ZT      | Dsub9(Female)    |
 | ZD      | Dsub9(Female)*   |
@@ -42,13 +42,13 @@ Zebra プリンタとホスト機器をシリアル接続するご要望は一�
     <br>
     
 
-1. TeraTermをインストールする。
+1. TeraTermをインストールする。  
     https://github.com/TeraTermProject/teraterm/releases
     <br>
     
 
-1. Teratermを起動する。
-    シリアル > USBx: Serial Port (Comx)
+1. Teratermを起動する。  
+    シリアル > USBx: Serial Port (Comx)  
     ※ 先に調べたComポート番号を選択する。
 
     ![1747294721104](image/README/1747294721104.png)
